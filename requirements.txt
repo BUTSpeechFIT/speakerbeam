@@ -1,0 +1,4 @@
+asteroid
+jupyter
+librosa
+matplotlib
