@@ -54,3 +54,27 @@ python eval.py --test_dir data/wav8k/min/test --task sep_noisy --model_path exp/
 ```
 
 In the output directory `exp/speakerbeam/out_best`, you can find the averaged results in `final_metrics.json` and the extracted audio files in `<out_dir>/out`.
+
+## Reference
+Please cite our works when using this code:
+```
+@ARTICLE{Zmolikova_Spkbeam_STSP19,
+  author={Žmolíková, Kateřina and Delcroix, Marc and Kinoshita, Keisuke and Ochiai, Tsubasa and Nakatani, Tomohiro and Burget, Lukáš and Černocký, Jan},
+  journal={IEEE Journal of Selected Topics in Signal Processing}, 
+  title={SpeakerBeam: Speaker Aware Neural Network for Target Speaker Extraction in Speech Mixtures}, 
+  year={2019},
+  volume={13},
+  number={4},
+  pages={800-814},
+  doi={10.1109/JSTSP.2019.2922820}}
+
+@INPROCEEDINGS{delcroix_tdSpkBeam_ICASSP20,
+  author={Delcroix, Marc and Ochiai, Tsubasa and Zmolikova, Katerina and Kinoshita, Keisuke and Tawara, Naohiro and Nakatani, Tomohiro and Araki, Shoko},
+  booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Improving Speaker Discrimination of Target Speech Extraction With Time-Domain Speakerbeam}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={691-695},
+  doi={10.1109/ICASSP40776.2020.9054683}}
+```
