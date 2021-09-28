@@ -13,7 +13,9 @@ pip install -r requirements.txt
 The code was tested with Python 3.8.6.
 
 ## Running the experiments
-The directory `egs` contains a recipe for [Libri2mix dataset](https://github.com/JorisCos/LibriMix). Before running the recipe, modify `path.sh` file to contain path to the repository root. 
+The directory `egs` contains a recipe for [Libri2mix dataset](https://github.com/JorisCos/LibriMix). The recipe assumes that you already have the LibriMix dataset available. If not, please follow the instructions at the [LibriMix repository](https://github.com/JorisCos/LibriMix) to obtain it. 
+
+Before running our recipe, modify `path.sh` file to contain path to the repository root. 
 ```
 PATH_TO_REPOSITORY="<path-to-repo>"
 ```
